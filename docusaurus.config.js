@@ -17,12 +17,12 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/domosite/',
+  baseUrl: '/oetrc/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'm18150095612', // Usually your GitHub org/user name.
-  projectName: 'domosite', // Usually your repo name.
+  projectName: 'oetrc', // Usually your repo name.
 
   onBrokenLinks: 'ignore',  // Docusaurus 在检测到无效链接时的行为。
   onBrokenMarkdownLinks: 'ignore',  // Docusaurus 在检测到无效 Markdown 链接时的行为。
