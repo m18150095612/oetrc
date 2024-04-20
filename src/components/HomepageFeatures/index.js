@@ -14,7 +14,7 @@ const newsList = [
 
 function NewsCarousel() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -24,13 +24,13 @@ function NewsCarousel() {
   return (
     <Slider {...settings}>
       <div>
-        <img src="img/news_images/news_image_1.webp" alt="新闻图片1"/>
+        <img src="img/newsImages/newsImage1.webp" alt="新闻图片1"/>
       </div>
       <div>
-        <img src="img/news_images/news_image_2.webp" alt="新闻图片2"/>
+        <img src="img/newsImages/newsImage2.webp" alt="新闻图片2"/>
       </div>
       <div>
-        <img src="img/news_images/news_image_3.jpg" alt="新闻图片3"/>
+        <img src="img/newsImages/newsImage3.jpg" alt="新闻图片3"/>
       </div>
     </Slider>
   );

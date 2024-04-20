@@ -13,10 +13,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 function HomepageCarousel() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
+    fade: true,
+    speed: 5000,
     autoplay: true,
-    speed: 500,
+    autoplaySpeed: 6000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -24,13 +26,13 @@ function HomepageCarousel() {
     <div className='slider-container'>
       <Slider {...settings}>
         <div>
-          <img src="img/carousel_images/carousel_image_1.jpg" alt="轮播图1"/>
+          <img src="img/themeCarouselImages/themeCarouselImage1.jpg" alt="主题轮播图1"/>
         </div>
         <div>
-          <img src="img/carousel_images/carousel_image_2.jpg" alt="轮播图2"/>
+          <img src="img/themeCarouselImages/themeCarouselImage2.jpg" alt="主题轮播图2"/>
         </div>
         <div>
-          <img src="img/carousel_images/carousel_image_3.jpg" alt="轮播图3"/>
+          <img src="img/themeCarouselImages/themeCarouselImage3.jpg" alt="主题轮播图3"/>
         </div>
       </Slider>
     </div>
@@ -54,7 +56,7 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageVideo />
+      <HomepageCarousel />
       <main>
         <HomepageFeatures />
       </main>
