@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkOETRC=self.webpackChunkOETRC||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/oetrc/blog","blogTitle":"Blog"}')}}]);
