@@ -1,0 +1,27 @@
+[
+  {
+    "label": "facebook",
+    "permalink": "/domosite/blog/tags/facebook",
+    "count": 1
+  },
+  {
+    "label": "hello",
+    "permalink": "/domosite/blog/tags/hello",
+    "count": 2
+  },
+  {
+    "label": "docusaurus",
+    "permalink": "/domosite/blog/tags/docusaurus",
+    "count": 4
+  },
+  {
+    "label": "greetings",
+    "permalink": "/domosite/blog/tags/greetings",
+    "count": 1
+  },
+  {
+    "label": "hola",
+    "permalink": "/domosite/blog/tags/hola",
+    "count": 1
+  }
+]

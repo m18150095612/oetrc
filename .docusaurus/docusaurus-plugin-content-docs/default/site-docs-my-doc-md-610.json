@@ -1,0 +1,19 @@
+{
+  "id": "my-doc-id",
+  "title": "My document title",
+  "description": "My document description",
+  "source": "@site/docs/my-doc.md",
+  "sourceDirName": ".",
+  "slug": "/my-custom-url",
+  "permalink": "/oetrc/docs/my-custom-url",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "my-doc-id",
+    "title": "My document title",
+    "description": "My document description",
+    "slug": "/my-custom-url"
+  }
+}

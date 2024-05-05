@@ -1,0 +1,18 @@
+{
+  "id": "placeholder",
+  "title": "Placeholder",
+  "description": "This is a placeholder file in the docs directory. You can replace this file with your actual documentation content.",
+  "source": "@site/docs/placeholder.md",
+  "sourceDirName": ".",
+  "slug": "/placeholder",
+  "permalink": "/oetrc/docs/placeholder",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "placeholder",
+    "title": "Placeholder"
+  },
+  "sidebar": "defaultSidebar"
+}
